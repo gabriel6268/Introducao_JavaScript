@@ -1,2 +1,5 @@
 # aula_JavaScript
-Introdução ao Java/script
+Introdução ao JavaScript
+
+
+Iniciando no JS no bootcamp da DIO.
