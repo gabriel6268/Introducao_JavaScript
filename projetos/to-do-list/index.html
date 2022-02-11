@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>To-do list</title>
+</head>
+<body onload="addEvents()">
+    <div class="container">
+        <h1>To-do list</h1>
+        <span class="content">
+            <input type="text" id="inputTasks" placeholder="Digite sua tarefa">
+            <input type="button" onKeyDown="createList()" id="btnAdd" value="Adicionar">
+            <input type="button" id="btnLimpar" value="Limpar">
+        </span>
+        <div id="tasks">
+        </div>
+    </div>
+    
+  
+</body>
+<script src="script/script.js"></script>
+</html>
